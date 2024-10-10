@@ -1,0 +1,113 @@
+/* Navbar CSS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+}
+
+.navbar img {
+  height: 50px;
+  width: 50px;
+  object-position: 50% 50%;
+  pointer-events: none;
+  animation: logo-spin infinite 20s linear;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.Main {
+  padding: 2rem 4rem;
+}
+
+/* ListGrid CSS */
+.list-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  border: 1px solid;
+  border-radius: 26px;
+}
+
+.card {
+  width: 250px;
+  height: 350px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.2);
+  user-select: none;
+}
+
+.card img {
+  height: 240px;
+  width: 200px;
+  object-fit: contain;
+  margin-bottom: auto;
+  margin-inline: auto;
+}
+
+.card h4 {
+  text-align: start;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.btn {
+  width: max-content;
+  margin-left: auto;
+  padding: 1px 8px;
+  outline: 1px solid;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 250ms ease-in-out;
+  color: inherit;
+  background-color: inherit;
+}
+
+.btn:hover {
+  color: #f3f3f3;
+  background-color: #000;
+}
+
+/* Footer CSS */
+.footer {
+  margin: 0 auto;
+  width: 90vw;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  border-top: 1px solid;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-list p {
+  font-size: 14px;
+}

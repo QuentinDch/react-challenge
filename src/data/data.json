@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Black",
+    "description": "#000",
+    "price": 129.99,
+    "image": "/src/assets/react-black.webp",
+    "category": "Mobilier"
+  },
+  {
+    "id": 2,
+    "title": "Native",
+    "description": "#444444",
+    "price": 49.99,
+    "image": "/src/assets/react-native.webp",
+    "category": "Mobilier"
+  },
+  {
+    "id": 3,
+    "title": "Cerise",
+    "description": "#e91e63",
+    "price": 199.99,
+    "image": "/src/assets/react-pink.svg",
+    "category": "Décoration"
+  },
+  {
+    "id": 4,
+    "title": "Fuchsia",
+    "description": "#ed02b5",
+    "price": 24.99,
+    "image": "/src/assets/react-purple.svg",
+    "category": "Décoration"
+  },
+  {
+    "id": 5,
+    "title": "Yellow",
+    "description": "#f5de19",
+    "price": 299.99,
+    "image": "/src/assets/react-yellow.svg",
+    "category": "Décoration"
+  },
+  {
+    "id": 6,
+    "title": "Original",
+    "description": "#00d8ff",
+    "price": 499.99,
+    "image": "/src/assets/react.svg",
+    "category": "Textile"
+  }
+]
