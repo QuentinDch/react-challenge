@@ -5,7 +5,7 @@
     "description": "#000",
     "price": 129.99,
     "image": "/src/assets/react-black.webp",
-    "category": "Mobilier"
+    "category": "Basic"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "#444444",
     "price": 49.99,
     "image": "/src/assets/react-native.webp",
-    "category": "Mobilier"
+    "category": "Basic"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "description": "#e91e63",
     "price": 199.99,
     "image": "/src/assets/react-pink.svg",
-    "category": "Décoration"
+    "category": "Premium"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "description": "#ed02b5",
     "price": 24.99,
     "image": "/src/assets/react-purple.svg",
-    "category": "Décoration"
+    "category": "Basic"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "description": "#f5de19",
     "price": 299.99,
     "image": "/src/assets/react-yellow.svg",
-    "category": "Décoration"
+    "category": "Premium"
   },
   {
     "id": 6,
@@ -45,6 +45,6 @@
     "description": "#00d8ff",
     "price": 499.99,
     "image": "/src/assets/react.svg",
-    "category": "Textile"
+    "category": "Premium"
   }
 ]

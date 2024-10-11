@@ -9,8 +9,8 @@ const Card = () => {
           <img src={object.image} alt={object.title} />
           <h4>{object.title}</h4>
           <p>{object.description}</p>
-          <p>{object.price}$</p>
-          <button className="btn" type="button">
+          <p>{object.price.toFixed(2)}$</p>
+          <button className="btn buy-btn" type="button">
             Buy Now
           </button>
         </div>
