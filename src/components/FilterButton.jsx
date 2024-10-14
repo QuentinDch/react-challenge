@@ -1,12 +1,16 @@
 import "../index.css";
 import data from "../data/data.json";
 
-function FilterButton() {
+function FilterButton({ setSelectedFilter }) {
   const categories = [...new Set(data.map((object) => object.category))];
 
   return (
     <div className="btn-wrapper">
-      <button className="btn filter-btn" type="button" onClick={handleClick}>
+      <button
+        className="btn filter-btn"
+        type="button"
+        onClick={() => setSelectedFilter("")}
+      >
         All
       </button>
       {categories.map((category) => (
@@ -14,7 +18,7 @@ function FilterButton() {
           key={category}
           className="btn filter-btn"
           type="button"
-          onClick={handleClick}
+          onClick={() => setSelectedFilter(category)}
         >
           {category}
         </button>
@@ -24,7 +28,3 @@ function FilterButton() {
 }
 
 export default FilterButton;
-
-function handleClick() {
-  console.log("click");
-}

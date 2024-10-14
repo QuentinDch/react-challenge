@@ -1,20 +1,19 @@
 import "../index.css";
-import data from "../data/data.json";
 
-const Card = () => {
+const Card = ({ object, setCount }) => {
   return (
-    <div className="list-grid">
-      {data.map((object) => (
-        <div key={object.id} className="card">
-          <img src={object.image} alt={object.title} />
-          <h4>{object.title}</h4>
-          <p>{object.description}</p>
-          <p>{object.price.toFixed(2)}$</p>
-          <button className="btn buy-btn" type="button">
-            Buy Now
-          </button>
-        </div>
-      ))}
+    <div className="card">
+      <img src={object.image} alt={object.title} />
+      <h4>{object.title}</h4>
+      <p>{object.description}</p>
+      <p>{object.price.toFixed(2)}$</p>
+      <button
+        className="btn buy-btn"
+        type="button"
+        onClick={() => setCount((prevCount) => prevCount + 1)}
+      >
+        Buy Now
+      </button>
     </div>
   );
 };
